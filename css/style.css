@@ -1195,3 +1195,24 @@ div:after {
         background-color: #00838f;
     }
 }
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.pagination li{
+    /*padding: 0 5px;*/
+    margin: 0 5px;
+}
+
+.pagination li:hover{
+    color: #00838f;
+    transition: .3s ease;
+}
+
+.pagination li .pages{
+    padding: 0 5px;
+}
